@@ -1,0 +1,60 @@
+body {
+    background-image: url(../image/1337846.png);
+    background-position: center;
+    background-size: cover;
+}
+ section .quote {
+    background-color: hsla(0, 0%, 0%, 0.322);
+    backdrop-filter: blur(5px);
+    height: 400px;
+    box-shadow: 0px 2px 10px rgb(8, 200, 207);
+ }
+
+ h1 {
+    font-family: 'Russo One', sans-serif;
+    color: rgb(243, 112, 19);
+    text-shadow: 0px 1px 5px black;
+ }
+ 
+ section .footer {
+   height: 50px;
+   background-color: rgba(0, 0, 0, 0.445);
+ }
+
+ .image {
+   width: 3.125rem;
+   height: 3.125rem;
+ }
+
+ section .footer h2 {
+   font-size: 1.25rem;
+ }
+ section p {
+    font-size: 1.5625rem;
+    text-shadow: 0px 1px 5px black;
+ }
+
+ .btn-danger {
+   background-color: darkslategray;
+   border: none;
+ }
+
+ .btn {
+    font-size: 1.25rem;
+ }
+
+ @media screen and (max-width: 768px) {
+   section p {
+      font-size: .9375rem;
+   }
+
+   h1 {
+      font-size: 1.25rem;
+   }
+   section h2 {
+      font-size: 1.5625rem;
+   }
+ }
+
+
+
